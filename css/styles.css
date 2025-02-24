@@ -1,0 +1,60 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  flex: 1;
+}
+/* Navbar customization */
+.navbar {
+  background-color: #000;
+}
+
+.nav-link.active {
+  color: #a27fd0; /* Custom active link color */
+}
+
+.nav-link {
+  color: #ffffff;
+  margin: 0 10px;
+}
+
+/* Main content styling */
+.display-1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+/* Footer styling */
+footer {
+  background-color: #000;
+  color: #ffffff;
+  border-top: 1px solid #ffffff;
+  padding: 10px 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a img {
+  vertical-align: middle;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

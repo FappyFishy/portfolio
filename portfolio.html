@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio - Opleidingen</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Mijn Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">Over mij</a></li>
+          <li class="nav-item"><a class="nav-link" href="opleidingen.html">Opleidingen</a></li>
+          <li class="nav-item"><a class="nav-link" href="werkervaring.html">Werkervaring</a></li>
+          <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1>Portfolio</h1>
+      <p>Mijn vakken en cijfers</p>
+    </div>
+  </header>
+
+  <!-- Nieuwe container met de tabellen -->
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Tabel met projectnamen -->
+      <div class="col-md-6">
+        <h2>Project Namen</h2>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Project Nr.</th>
+              <th scope="col">Titel</th>
+              <th scope="col">Omschrijving</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Project 1</td>
+              <td>BlackJack</td>
+              <td>
+                Kaartspel voor PROG waar je Hoger of Lager kon kiezen.
+                Degene die het dichtst bij 21 was, wint.
+                <br><br>
+                <!-- Screenshot van het BlackJack-spel -->
+                <img src="Assets/blackjack_screenshot.png" alt="Black Jack Screenshot" class="img-fluid"
+                  style="max-width: 300px; height: auto;">
+              </td>
+            </tr>
+            <tr>
+              <td>Project 2</td>
+              <td>Pokemon</td>
+              <td>
+                Pokemon spel ook voor PROG waar je pokemons kan vinden en kan battlen.
+                <br><br>
+                <!-- Screenshot van het Pokemon-spel -->
+                <img src="Assets/pokemon_screenshot.png" alt="Pokemon Screenshot" class="img-fluid"
+                  style="max-width: 300px; height: auto;">
+              </td>
+            </tr>
+            <tr>
+              <td>Project 3</td>
+              <td>Portfolio</td>
+              <td>Webpagina maken over onszelf, zie deze website</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Tabel waar cijfers toegevoegd kunnen worden -->
+      <div class="col-md-6">
+        <h2>Cijfers</h2>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Vak</th>
+              <th scope="col">Cijfer</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>PROG</td>
+              <td>Voldoende</td>
+            </tr>
+            <tr>
+              <td>FED</td>
+              <td>Voldoende</td>
+            </tr>
+            <tr>
+              <td>DAB</td>
+              <td>Voldoende</td>
+            </tr>
+            <tr>
+              <td>SCRUM</td>
+              <td>Voldoende</td>
+            </tr>
+            <tr>
+              <td>LOB</td>
+              <td>Voldoende</td>
+            </tr>
+            <tr>
+              <td>SEN</td>
+              <td>Voldoende</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center py-3 d-flex justify-content-between align-items-center">
+    <p class="mb-0">Privacy Policy</p>
+    <p class="mb-0">&copy; 2025 by Irem Tezel</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/fappyfishy/">
+        <img src="Assets/Instagram.png" alt="Instagram" width="30" height="30">
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=100009525851873">
+        <img src="Assets/Facebook_logo_(square).png" alt="Facebook" width="30" height="30">
+      </a>
+      <a href="https://wa.me/31634052854/">
+        <img src="Assets/whatsapp.png" alt="WhatsApp" width="30" height="30">
+      </a>
+      <a href="https://github.com/FappyFishy">
+        <img src="assets/GitHub-Logo.png" alt="Github" width="30" height="30">
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>
